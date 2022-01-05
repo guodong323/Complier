@@ -1,0 +1,3 @@
+/Users/adong/Desktop/complier/build/CMakeFiles/hello.dir
+/Users/adong/Desktop/complier/build/CMakeFiles/edit_cache.dir
+/Users/adong/Desktop/complier/build/CMakeFiles/rebuild_cache.dir

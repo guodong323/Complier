@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/Lexer.cpp.o -c /Users/adong/Desktop/complier/src/Lexer.cpp",
+  "file": "/Users/adong/Desktop/complier/src/Lexer.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/main.cpp.o -c /Users/adong/Desktop/complier/src/main.cpp",
+  "file": "/Users/adong/Desktop/complier/src/main.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/test.cpp.o -c /Users/adong/Desktop/complier/src/test.cpp",
+  "file": "/Users/adong/Desktop/complier/src/test.cpp"
+}
+]
