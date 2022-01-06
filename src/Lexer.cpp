@@ -58,5 +58,6 @@ void Complier::Lexer::GetNextToken() {
     CurrentToken = std::make_shared<Token>();
     CurrentToken->Kind = kind;
     CurrentToken->Value = value;
+    // 字符截取
     CurrentToken->Content = SourceCode.substr(startPos, Cursor - 1 - startPos);
 }

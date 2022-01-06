@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello.dir/src/Lexer.cpp.o"
   "CMakeFiles/hello.dir/src/Lexer.cpp.o.d"
+  "CMakeFiles/hello.dir/src/Node.cpp.o"
+  "CMakeFiles/hello.dir/src/Node.cpp.o.d"
+  "CMakeFiles/hello.dir/src/Parser.cpp.o"
+  "CMakeFiles/hello.dir/src/Parser.cpp.o.d"
+  "CMakeFiles/hello.dir/src/PrintVistor.cpp.o"
+  "CMakeFiles/hello.dir/src/PrintVistor.cpp.o.d"
   "CMakeFiles/hello.dir/src/main.cpp.o"
   "CMakeFiles/hello.dir/src/main.cpp.o.d"
   "CMakeFiles/hello.dir/src/test.cpp.o"

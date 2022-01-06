@@ -83,10 +83,52 @@ CMakeFiles/hello.dir/src/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/Lexer.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adong/Desktop/complier/src/Lexer.cpp -o CMakeFiles/hello.dir/src/Lexer.cpp.s
 
+CMakeFiles/hello.dir/src/Node.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/Node.cpp.o: ../src/Node.cpp
+CMakeFiles/hello.dir/src/Node.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/src/Node.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/Node.cpp.o -MF CMakeFiles/hello.dir/src/Node.cpp.o.d -o CMakeFiles/hello.dir/src/Node.cpp.o -c /Users/adong/Desktop/complier/src/Node.cpp
+
+CMakeFiles/hello.dir/src/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/Node.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adong/Desktop/complier/src/Node.cpp > CMakeFiles/hello.dir/src/Node.cpp.i
+
+CMakeFiles/hello.dir/src/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/Node.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adong/Desktop/complier/src/Node.cpp -o CMakeFiles/hello.dir/src/Node.cpp.s
+
+CMakeFiles/hello.dir/src/Parser.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/Parser.cpp.o: ../src/Parser.cpp
+CMakeFiles/hello.dir/src/Parser.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello.dir/src/Parser.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/Parser.cpp.o -MF CMakeFiles/hello.dir/src/Parser.cpp.o.d -o CMakeFiles/hello.dir/src/Parser.cpp.o -c /Users/adong/Desktop/complier/src/Parser.cpp
+
+CMakeFiles/hello.dir/src/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/Parser.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adong/Desktop/complier/src/Parser.cpp > CMakeFiles/hello.dir/src/Parser.cpp.i
+
+CMakeFiles/hello.dir/src/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/Parser.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adong/Desktop/complier/src/Parser.cpp -o CMakeFiles/hello.dir/src/Parser.cpp.s
+
+CMakeFiles/hello.dir/src/PrintVistor.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/PrintVistor.cpp.o: ../src/PrintVistor.cpp
+CMakeFiles/hello.dir/src/PrintVistor.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hello.dir/src/PrintVistor.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/PrintVistor.cpp.o -MF CMakeFiles/hello.dir/src/PrintVistor.cpp.o.d -o CMakeFiles/hello.dir/src/PrintVistor.cpp.o -c /Users/adong/Desktop/complier/src/PrintVistor.cpp
+
+CMakeFiles/hello.dir/src/PrintVistor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/PrintVistor.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adong/Desktop/complier/src/PrintVistor.cpp > CMakeFiles/hello.dir/src/PrintVistor.cpp.i
+
+CMakeFiles/hello.dir/src/PrintVistor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/PrintVistor.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adong/Desktop/complier/src/PrintVistor.cpp -o CMakeFiles/hello.dir/src/PrintVistor.cpp.s
+
 CMakeFiles/hello.dir/src/main.cpp.o: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/hello.dir/src/main.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hello.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/main.cpp.o -MF CMakeFiles/hello.dir/src/main.cpp.o.d -o CMakeFiles/hello.dir/src/main.cpp.o -c /Users/adong/Desktop/complier/src/main.cpp
 
 CMakeFiles/hello.dir/src/main.cpp.i: cmake_force
@@ -100,7 +142,7 @@ CMakeFiles/hello.dir/src/main.cpp.s: cmake_force
 CMakeFiles/hello.dir/src/test.cpp.o: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/src/test.cpp.o: ../src/test.cpp
 CMakeFiles/hello.dir/src/test.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hello.dir/src/test.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/test.cpp.o -MF CMakeFiles/hello.dir/src/test.cpp.o.d -o CMakeFiles/hello.dir/src/test.cpp.o -c /Users/adong/Desktop/complier/src/test.cpp
 
 CMakeFiles/hello.dir/src/test.cpp.i: cmake_force
@@ -114,6 +156,9 @@ CMakeFiles/hello.dir/src/test.cpp.s: cmake_force
 # Object files for target hello
 hello_OBJECTS = \
 "CMakeFiles/hello.dir/src/Lexer.cpp.o" \
+"CMakeFiles/hello.dir/src/Node.cpp.o" \
+"CMakeFiles/hello.dir/src/Parser.cpp.o" \
+"CMakeFiles/hello.dir/src/PrintVistor.cpp.o" \
 "CMakeFiles/hello.dir/src/main.cpp.o" \
 "CMakeFiles/hello.dir/src/test.cpp.o"
 
@@ -121,11 +166,14 @@ hello_OBJECTS = \
 hello_EXTERNAL_OBJECTS =
 
 hello: CMakeFiles/hello.dir/src/Lexer.cpp.o
+hello: CMakeFiles/hello.dir/src/Node.cpp.o
+hello: CMakeFiles/hello.dir/src/Parser.cpp.o
+hello: CMakeFiles/hello.dir/src/PrintVistor.cpp.o
 hello: CMakeFiles/hello.dir/src/main.cpp.o
 hello: CMakeFiles/hello.dir/src/test.cpp.o
 hello: CMakeFiles/hello.dir/build.make
 hello: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/adong/Desktop/complier/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

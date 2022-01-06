@@ -6,6 +6,21 @@
 },
 {
   "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/Node.cpp.o -c /Users/adong/Desktop/complier/src/Node.cpp",
+  "file": "/Users/adong/Desktop/complier/src/Node.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/Parser.cpp.o -c /Users/adong/Desktop/complier/src/Parser.cpp",
+  "file": "/Users/adong/Desktop/complier/src/Parser.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/PrintVistor.cpp.o -c /Users/adong/Desktop/complier/src/PrintVistor.cpp",
+  "file": "/Users/adong/Desktop/complier/src/PrintVistor.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/main.cpp.o -c /Users/adong/Desktop/complier/src/main.cpp",
   "file": "/Users/adong/Desktop/complier/src/main.cpp"
 },
