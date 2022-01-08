@@ -1,13 +1,15 @@
 
-
 #include "Node.h"
 
 namespace Complier {
-    class PrintVistor : public Vistor {
+    class CodeGen : public Vistor {
         public:
-        PrintVistor(){}
+        int StackLevel = 0;
+        CodeGen(){}
         void VistorProgramNode(ProgramNode *node);
         void VistorBinaryNode(BinaryNode *node);
         void VistorConstantNode(ConstantNode *node);
+        void Push();
+        void Pop(const char *reg);
     };
 }

@@ -2,6 +2,7 @@
 // #include "Lexer.h"
 #include "Parser.h"
 #include "PrintVistor.h"
+#include "CodeGen.h"
 
 using namespace Complier;
 
@@ -16,14 +17,22 @@ void testLexer() {
     } while (lex.CurrentToken->Kind != Eof);
 }
 
-int main()
+int main(int argc,char *argv[])
 {
-    Lexer lex(code);
+    if (argc != 2) {
+        printf("please input: ./complier code\n");
+        return 0;
+    }
+
+    const char *source = argv[1];
+    Lexer lex(source);
     lex.GetNextToken();
 
     Parser parser(lex);
-    PrintVistor vistor;
+    CodeGen codegen;
+    // PrintVistor vistor;
     std::shared_ptr<ProgramNode> root = parser.Parse();
-    root->Accept(&vistor);
+    // root->Accept(&vistor);
+    root->Accept(&codegen);
     return 0;
 }

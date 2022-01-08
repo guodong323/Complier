@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hello.dir/src/CodeGen.cpp.o"
+  "CMakeFiles/hello.dir/src/CodeGen.cpp.o.d"
   "CMakeFiles/hello.dir/src/Lexer.cpp.o"
   "CMakeFiles/hello.dir/src/Lexer.cpp.o.d"
   "CMakeFiles/hello.dir/src/Node.cpp.o"

@@ -129,6 +129,30 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+src/CodeGen.o: src/CodeGen.cpp.o
+.PHONY : src/CodeGen.o
+
+# target to build an object file
+src/CodeGen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/CodeGen.cpp.o
+.PHONY : src/CodeGen.cpp.o
+
+src/CodeGen.i: src/CodeGen.cpp.i
+.PHONY : src/CodeGen.i
+
+# target to preprocess a source file
+src/CodeGen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/CodeGen.cpp.i
+.PHONY : src/CodeGen.cpp.i
+
+src/CodeGen.s: src/CodeGen.cpp.s
+.PHONY : src/CodeGen.s
+
+# target to generate assembly for a file
+src/CodeGen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/CodeGen.cpp.s
+.PHONY : src/CodeGen.cpp.s
+
 src/Lexer.o: src/Lexer.cpp.o
 .PHONY : src/Lexer.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hello"
+	@echo "... src/CodeGen.o"
+	@echo "... src/CodeGen.i"
+	@echo "... src/CodeGen.s"
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"

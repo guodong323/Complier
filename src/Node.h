@@ -14,7 +14,7 @@ namespace Complier {
     class ProgramNode : public Node {
         public:
         std::shared_ptr<Node> Lhs;
-        void Accept(Vistor *vistor);
+        void Accept(Vistor *vistor) override;
     };
 
     enum BinaryOperator {
@@ -29,17 +29,18 @@ namespace Complier {
             BinaryOperator op;
             std::shared_ptr<Node> Lhs;
             std::shared_ptr<Node> Rhs;
-            void Accept(Vistor *vistor);
+            void Accept(Vistor *vistor) override;
     };
 
     class ConstantNode : public Node {
         public:
             int Value;
-            void Accept(Vistor *vistor);
+            void Accept(Vistor *vistor) override;
     };
 
     class Vistor {
         public:
+            virtual ~Vistor(){};
             virtual void VistorProgramNode(ProgramNode *node) {};
             virtual void VistorBinaryNode(BinaryNode *node) {};
             virtual void VistorConstantNode(ConstantNode *node) {};

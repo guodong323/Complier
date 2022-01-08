@@ -1,6 +1,11 @@
 [
 {
   "directory": "/Users/adong/Desktop/complier/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/CodeGen.cpp.o -c /Users/adong/Desktop/complier/src/CodeGen.cpp",
+  "file": "/Users/adong/Desktop/complier/src/CodeGen.cpp"
+},
+{
+  "directory": "/Users/adong/Desktop/complier/build",
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -o CMakeFiles/hello.dir/src/Lexer.cpp.o -c /Users/adong/Desktop/complier/src/Lexer.cpp",
   "file": "/Users/adong/Desktop/complier/src/Lexer.cpp"
 },
